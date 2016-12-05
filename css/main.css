@@ -1,4 +1,4 @@
-*{outline: 1px solid rgba(0,255,0,0.3);font-family: "Lato";}
+*{font-family: "Lato";}
 
 /*------------HEADER-----------------*/
 header{
@@ -11,6 +11,7 @@ header .navbar{
 }
 .text h1{
     font-weight: bolder;
+    text-shadow: 2px 1px rgba(7,53,147,0.7);
 }
 .text{
     margin: 15% 20%;
@@ -18,8 +19,10 @@ header .navbar{
 .hero p{
     padding: 0 5%;    
 }
-.navbar button{background: #fff;
+.navbar button{background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(7,53,147,0.7);
 }
+.navbar-header span{background-color: #ccc;}
 .navbar .navbar-brand{
     color: #fff;
 }
@@ -101,13 +104,14 @@ footer .fa{
 }
 @media screen and (max-width:780px){
     .section-2 .about-me{margin:0 1%;}
-    .section-2{
-        padding:2% 0;
-    }
+    .section-2{padding:2% 0;}
+    .block{margin:5% 0;}
+    .section-1{display: none;}
 }
 @media screen and (max-width:387px){
     header h1{font-size: 27px;}
     .section-2{padding: 15% 0;}
+    .block{margin:6% 0;}
 }
 
 
