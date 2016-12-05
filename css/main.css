@@ -23,6 +23,9 @@ header .navbar{
 .navbar button{background: rgba(0,0,0,0.3);
     border: 1px solid rgba(7,53,147,0.7);
 }
+header .navbar-nav{
+    float: right;
+}
 .navbar-header span{background-color: #ccc;}
 .navbar .navbar-brand{
     color: #fff;
@@ -67,6 +70,18 @@ header .navbar{
     text-shadow: -5px 1px #ccc;
 }
 /*-----------------------SECTION-4-----------------------------*/
+.info{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    text-align: center;
+    z-index:1;
+    width:100%;
+    visibility: hidden;
+}
+.section-4 .info:hover{
+    visibility: visible;
+    transition: all 5s ease;
+}
 .git-2{
    padding: 0; 
 }
@@ -100,8 +115,8 @@ footer .fa{
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:1024px){
-    .section-4 img{width: 768px;}
     .hero .text{margin:6%;}
+    header .navbar-nav{float: right; text-align: center;}
 }
 @media screen and (max-width:780px){
     .section-2 .about-me{margin:0 1%;}
@@ -114,7 +129,6 @@ footer .fa{
     .section-2{padding: 15% 0;}
     .block{margin:6% 0;}
 }
-
 
 
 
