@@ -4,6 +4,7 @@
 header{
   background:url(../img/fondo-header.jpg);
     background-size: cover;
+    background-attachment: fixed;
     color: #fff;
 }
 header .navbar{
