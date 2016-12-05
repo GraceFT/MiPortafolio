@@ -55,9 +55,12 @@ header .navbar{
 .block{
     text-align: center;
 }
-.icono{
+.icono a{
     color:rgb(7,53,147);
     font-size: 40px;
+}
+.icono .fa:hover{
+    text-shadow: -5px 1px #ccc;
 }
 /*-----------------------SECTION-4-----------------------------*/
 .git-2{
@@ -77,6 +80,9 @@ header .navbar{
     display: block;
     background: rgb(7,53,147)
 }
+.button:hover{
+    color: #000;
+}
 /*-------------FOOTER------*/
 footer{
      text-align: center;
@@ -90,7 +96,7 @@ footer .fa{
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:1024px){
-    .section-4 img{width: 750px;}
+    .section-4 img{width: 760px;}
     .hero .text{margin:6%;}
 }
 @media screen and (max-width:780px){
