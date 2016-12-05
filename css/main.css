@@ -20,6 +20,9 @@ header .navbar{
 }
 .navbar button{background: #fff;
 }
+.navbar .navbar-brand{
+    color: #fff;
+}
 #navbar-1 a{
     color: #fff;
 }
@@ -37,8 +40,8 @@ header .navbar{
     padding:2% 0 7% 0;
 }
 .sep{
-    width: 50px;
-    color: rgb(7,53,147)
+    width: 60px;
+    border:1px solid rgb(7,53,147);
 }
 .section-2 .about-me{
     margin: 0 20%;
@@ -52,7 +55,7 @@ header .navbar{
 .block{
     text-align: center;
 }
-.block .fa{
+.icono{
     color:rgb(7,53,147);
     font-size: 40px;
 }
@@ -65,26 +68,25 @@ header .navbar{
     background: #222;
     color: #fff;
 }
-.github{
-    padding: 
-}
-.text-github button{
+.button{
     margin:0 auto;
-    border-radius: 4%;
+    border:none;
+    border-radius: 20px;
+    padding: 5px 15px;
     font-weight: bold;
-    display: block; 
-}
-section-4 .github:hover{
-    
+    display: block;
+    background: rgb(7,53,147)
 }
 /*-------------FOOTER------*/
 footer{
      text-align: center;
+    padding: 
 }
 footer .fa{
     color:rgb(7,53,147);
     font-size: 40px;
 }
+
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:1024px){
