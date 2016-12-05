@@ -100,7 +100,7 @@ footer .fa{
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:1024px){
-    .section-4 img{width: 760px;}
+    .section-4 img{width: 768px;}
     .hero .text{margin:6%;}
 }
 @media screen and (max-width:780px){
